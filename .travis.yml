@@ -14,4 +14,4 @@ before_install:
  - npm install
 
 script:
- - npm run coverage-test
+ - TEST_DEBUG=true npm run coverage-test
